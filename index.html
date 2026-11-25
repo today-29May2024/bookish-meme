@@ -2,15 +2,22 @@
 
 <html>
   <head>
+    <link rel="stylesheet" href="./public/style/style.css">
+    <script defer src="./public/js/script.js"></script>
+
     <title>Boon's Blog</title>
   </head>
   <body>
-    <h3>Hi, welcome to Boon's Blog.</h3> 
+    <button id="btn-theme">Switch to Light Mode</button>
+    <input id="font-size-changer" type="range" min="0" max="6">
+    <label>Font size: <output id="value"></output></label>
+
+    <h2>Hi, welcome to Boon's Blog.</h2> 
     <p>This blog will post articles about software what I have built for fun and it might be something useful.</p>
-    <p>Blog's articles listing:</p>
+    <h3>Blog's articles listing:</h3>
 
     <ol>
-      <li><a href="./articles/intro.html">Nov. 25, 2026 - Greeting and introduction</a></li>
+      <li><a class="article-link" href="./articles/intro.html">Nov. 25, 2026 - Greeting and introduction</a></li>
     </ol>
 
   </body>
